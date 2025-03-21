@@ -35,3 +35,14 @@ cin >> arr[i]; // Menyimpan nilai data n kedalam array arr
 void insertionSort()
 { // Procedure InsertionSort
 
+    int temp; // Membuat variable data temporer atau menyimpan sementara
+    int j, i; // Membuat variable j sebagai penanda
+    
+    for (i = 1; i <= n - 1; i++)
+    { // Step 1
+    
+    temp = arr[i]; // Step 2
+    
+    j = i - 1; // Step 3
+    
+   
