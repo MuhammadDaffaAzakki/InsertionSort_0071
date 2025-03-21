@@ -11,3 +11,17 @@ while (true)
 cout << "Masukkan Jumlah Data pada Array : "; // Membuat Inputan jumlah element Array
 cin >> n; // memanggil variable inputan n
 
+if (n <= 20)
+{ // Membuat Kondisi n tidak lebih dari 20
+break;
+}
+else
+{
+cout << "\nArray yang anda masukkan maksimal 20 Element.\n"; // Menampilkan Pesan Jika data lebih dari 20
+}
+}
+cout << endl; // Membuat jarak per baris program
+cout << "======================" << endl;
+cout << "Masukkan Element Array" << endl;
+cout << "======================" << endl;
+
